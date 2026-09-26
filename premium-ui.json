@@ -1,0 +1,8 @@
+{
+  "profile": "product-admin",
+  "sourceRoots": ["src"],
+  "requiredCapabilities": ["Select/Listbox"],
+  "ownership": {
+    "Select/Listbox": "authored"
+  }
+}
