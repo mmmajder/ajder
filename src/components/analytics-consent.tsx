@@ -39,7 +39,7 @@ export function AnalyticsConsent() {
           <div>
             <p className="analytics-consent-kicker">Site analytics</p>
             <h2 id="analytics-consent-title">Help me understand how this site is used</h2>
-            <p>Basic visits are counted without cookies. If you allow analytics cookies, I can also see approximate visitor locations and repeat visits. You can change this choice anytime.</p>
+            <p>Visits are counted without cookies. Analytics cookies add approximate location and repeat visits. Change this anytime.</p>
           </div>
           <div className="analytics-consent-actions">
             <button type="button" className="analytics-allow" onClick={() => choose(true)}>Allow analytics</button>
