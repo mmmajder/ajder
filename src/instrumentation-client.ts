@@ -8,7 +8,8 @@ if (process.env.NODE_ENV === "production" && token && host) {
     api_host: host,
     defaults: "2026-05-30",
     capture_pageview: "history_change",
-    cookieless_mode: "always",
+    cookieless_mode: "on_reject",
+    opt_out_capturing_by_default: true,
     person_profiles: "never",
     disable_session_recording: true,
   });
